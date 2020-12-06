@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Varela Round", "sans-serif";
+  background: linear-gradient(to right, #2196f3, #f44336);
+  font-weight: normal;
+}
+
+body header {
+  padding: 12px;
+  text-align: center;
+  background-color: #000;
+  opacity: 0.3;
+  color: #fff;
+  font-size: 30px;
+}
+
+section .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container .to-do-item {
+  margin-bottom: 50px;
+}
+
+.to-do-item label {
+  padding: 15px;
+  width: 100px;
+  display: inline-block;
+}
+
+.to-do-item input {
+  padding: 10px;
+  width: 400px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.container span button {
+  padding: 10px 14px;
+  border: none;
+  font-size: 16px;
+  background-color: #36a1df;
+  color: #fff;
+  outline: none;
+}
+.container span button:hover {
+  cursor: pointer;
+}
+
+.container span .to-do-button {
+  margin: 0px 20px 50px 90px;
+}
+
+.bg-red {
+  background-color: #fdd1d2;
+}
+.bg-green {
+  background-color: #96d4cc;
+}
+.bg-normal {
+  background-color: #fbede0;
+}
